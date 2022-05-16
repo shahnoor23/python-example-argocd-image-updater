@@ -11,14 +11,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/shahnoor23/nginx-image-updater.git
+    repoURL: https://github.com/shahnoor23/python-example-argocd-image-updater.git
     targetRevision: HEAD
     path: dev
   destination: 
     server: https://kubernetes.default.svc
     namespace: python
-
-
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
