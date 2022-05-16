@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: python
-        image: docker.io/shahnoorkhalidi/python-hello-world
+        image: docker.io/shahnoorkhalidi/python-hello-world:v1
         ports:
         - containerPort: 80
 ---
