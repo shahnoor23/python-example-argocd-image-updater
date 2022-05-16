@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - docker.io/shahnoorkhalidi/python-hello-world:v2
